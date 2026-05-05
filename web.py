@@ -14,10 +14,10 @@ st.title("RAG Pipeline Using Gemini")
 #key = os.getenv("gemini_key")
 
 # LLM
-llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash",api_key='AIzaSyDg2drFHYL4xKWTIWbO14VWWb_79__AlEE')
+llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash",api_key='AIzaSyArnjA8ELFpEirWNBI4TsFCFNnlMPoM4c8')
 
 # EMBEDDING MODEL
-emb_llm = GoogleGenerativeAIEmbeddings(model="models/gemini-embedding-001",google_api_key='AIzaSyDg2drFHYL4xKWTIWbO14VWWb_79__AlEE')
+emb_llm = GoogleGenerativeAIEmbeddings(model="models/gemini-embedding-001",google_api_key='AIzaSyArnjA8ELFpEirWNBI4TsFCFNnlMPoM4c8')
 
 
 # FILE UPLOADER
